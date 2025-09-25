@@ -57,13 +57,17 @@ The primary features include smart week highlighting based on holiday density, m
 ---
 ### 📸 Features in Detail & Screenshots
 1. Main Calendar Interface
+   
 The main view is clean and modern, with a "glassmorphism" design that provides a beautiful backdrop for the calendar.
 
+ ![Main Page](./screenshots/Main.png)
 <!-- Upload a screenshot of the main calendar view (e.g., the current month for India) here. -->
 
 2. Searchable Country Selector
+   
 Instead of a static dropdown, the user can search for any country. The list filters in real-time and shows the top 5 matches.
 
+![Searchable Country Selector](./screenshots/Country.png)
 <!-- Upload a screenshot showing the country search dropdown with a search term like "United" and the filtered results below. -->
 
 3. Smart Week & Day Highlighting
@@ -71,16 +75,19 @@ This is the core feature of the application, designed to make vacation planning 
 
 #### Single Holiday Week (Green Highlight):
 
+![Single Holiday Week](./screenshots/Single.png)
 <!-- Upload a screenshot of a week with a single holiday, highlighted in light green. -->
 
 #### Multi-Holiday Week (Gray Highlight):
 
+![Multi-Holiday Week](./screenshots/Double.png)
 <!-- Upload a screenshot of a week with multiple holidays (e.g., during Christmas), highlighted in dark gray. -->
 
 #### Individual Holiday Focus:
 
 Each day that is a holiday is also given a distinct background color to make it stand out within the highlighted week. The holiday's name is clearly visible.
 
+![Individual Holiday Focus](./screenshots/Color.png)
 <!-- Upload a screenshot focusing on a single day that is a holiday, showing the darker background and the holiday name. -->
 
 4. Comprehensive Navigation
@@ -88,18 +95,23 @@ Each day that is a holiday is also given a distinct background color to make it 
 
 Users can instantly switch between views. The quarterly view label updates to show the correct quarter (e.g., "Quarter1", "Quarter2").
 
+![Quarter](./screenshots/Quarter.png)
 <!-- Upload a screenshot showing the "Quarterly" view active, with "Quarter3 2025" or similar displayed. -->
 
 #### Month & Year Selection:
 
 The navigation bar features hover-activated, scrollable dropdowns for both the month and year, keeping the UI clean while providing full control.
 
+![Month Selection](./screenshots/MonthSelect.png)
+
+  ![Year Selection](./screenshots/Year.png)
 <!-- Upload a screenshot showing the user hovering over the year, with the scrollable year selection dropdown visible. -->
 
 #### Navigate to Today's Month:
 
 A convenient button allows the user to instantly return to the current month from anywhere in the calendar.
 
+![Navigate to Today](./screenshots/Navigate.png)
 <!-- Upload a screenshot highlighting the "Navigate to Today's Month" button in the header. -->
 
 ---
@@ -118,11 +130,11 @@ To get a local copy up and running, follow these simple steps.
 
 1. Navigate to the backend directory:
 
-    cd backend
+    `cd backend`
 
 2. Install NPM packages:
 
-    npm install
+    `npm install`
 
 3. Crucial Step: Get a free API key from Calendarific.
 
