@@ -105,7 +105,7 @@ const CalendarHeader = ({ view, setView, country, handleCountryChange, handlePre
                 </button>
                 <div className="flex items-center space-x-4">
                     <button onClick={goToToday} className="px-4 py-1 text-sm font-semibold text-indigo-600 bg-indigo-100/50 border border-indigo-200 rounded-full hover:bg-indigo-100 transition-colors">
-                        Today's Month
+                        Navigate to Today's Month
                     </button>
                     <div className="flex items-center space-x-2 text-2xl font-semibold text-slate-700">
                         {view === 'monthly' ? (
